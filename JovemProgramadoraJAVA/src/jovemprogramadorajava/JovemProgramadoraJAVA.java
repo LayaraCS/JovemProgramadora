@@ -22,7 +22,7 @@ public class JovemProgramadoraJAVA {
         boolean temCNH = false;
         char sexo = 'M';
        System.out.println("Eu me chamo " + nome + " " + sobrenome + " e tenho " + idade + " anos");
-        System.out.println("Você tem " + idade + " anos");
+        System.out.println("Voce tem " + idade + " anos");
                
                
                

@@ -19,6 +19,8 @@ public class Multiplicacao {
         
     multiplicacao = multiplicacaoDoisNumeros(num1, num2);
         System.out.println("Resultado da multiplicacao eh: " + multiplicacao);
+        
+        encerraSistema();
     }
     
     public static int multiplicacaoDoisNumeros(int numero1, int numero2){
@@ -26,5 +28,13 @@ public class Multiplicacao {
     resultado = numero1 * numero2;
     return resultado;
     }
+    
+    public static void encerraSistema(){
+        System.err.println("SEU SISTEMA FOI ENCERRADO");
+        System.exit(0);
+        
+        
+    }
+   
 }
 
